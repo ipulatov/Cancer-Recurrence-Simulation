@@ -67,22 +67,7 @@ def foo(array):
                 birth_param =(delta_t) * (4.02) * (result[i,j] ) ** .81
                 birth = (np.random.poisson( (birth_param), 1))[0]
 
-                #This is the regular case
-                #death_param =(delta_t) * (20.15) * (result[i,j] ) ** .68
-                
-                #This is case 1
-                #death_param =(delta_t) * (4.02) * (result[i,j] ) ** .68
-                
-                #This is case 2
-                #death_param =(delta_t) * (5.42) * (result[i,j] ) ** .68
-                
-                #This is case 3
-                #death_param =(delta_t) * (7.32) * (result[i,j] ) ** .68
-                
-                #This is case 4
-                #death_param =(delta_t) * (9.87) * (result[i,j] ) ** .68
-                
-                death_param = 0
+                death_param =(delta_t) * (20.15) * (result[i,j] ) ** .68
                 death = (np.random.poisson( (death_param), 1))[0]    
                 
 
