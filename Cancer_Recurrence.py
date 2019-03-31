@@ -167,7 +167,6 @@ def the_bigger_process(array):
     counter =0
     i = 0
 
-    #while counter < row_size(array)-1:
     while counter < row_size(array)-1:
   
         updated_array,metastasis_array = the_process(array)     
@@ -179,8 +178,6 @@ def the_bigger_process(array):
         i+=1
            
         third_big_metastasis_array = big_metastasis_array[np.where(big_metastasis_array[:,i] == 1)]
-#        if i ==row_size(array):
-#            continue
         
         array = third_big_metastasis_array
 
