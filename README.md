@@ -1,1 +1,2 @@
 # Cancer-Recurrence-Simulation
+This is a simulation that models cancer growth, death, and metastasis as markov processes. Each row corresponds to a tumor, each column is a time, and value is the tumor's size at that time. At the end of the code is a "surgery" which simulates what happens after tumors above a certain size are removed. One needs to install the anaconda distribution, Cuda, and the Numba Library to run this with the numba functions and decorators.
